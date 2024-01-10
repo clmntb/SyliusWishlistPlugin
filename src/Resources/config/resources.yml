@@ -6,6 +6,6 @@ sylius_order:
 
 sylius_resource:
     resources:
-        wishlist:
+        bitbag.wishlist:
             classes:
                 model: BitBag\SyliusWishlistPlugin\Entity\Wishlist
