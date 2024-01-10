@@ -3,3 +3,6 @@ sylius_order:
         order_item:
             classes:
                 controller: BitBag\SyliusWishlistPlugin\Controller\OrderItemController
+        wishlist:
+            classes:
+                model: BitBag\SyliusWishlistPlugin\Entity\Wishlist
